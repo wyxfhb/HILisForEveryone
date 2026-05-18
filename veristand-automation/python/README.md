@@ -67,7 +67,7 @@ pytest -v
 
 ## Test report
 
-Every run via `pytest_runner.py` automatically generates `report.html` in the `python/` directory. Open it in any browser after a run to see a full summary: pass/fail status per test, captured stdout (the print statements in each test), timing, and failure tracebacks.
+If `pytest-html` is installed, runs via `pytest_runner.py` automatically generate `report.html` in the `python/` directory. Open it in any browser after a run to see a full summary: pass/fail status per test, captured stdout (the print statements in each test), timing, and failure tracebacks.
 
 The `--self-contained-html` flag bundles all CSS and JavaScript into the single file, so you can share or archive it without any extra assets.
 
